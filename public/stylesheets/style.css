@@ -48,13 +48,12 @@ a {
   text-decoration: none;
 }
 
-.btn-whats-header {
-  margin-left: 120px;
-}
 
-.btn-whats-header, .whats-header {
+
+.whats-header {
   width: 220px;
   height: 100%;
+  text-decoration: none;
   background-color: #221f16;
   color: white;
   line-height: 50px;
@@ -64,6 +63,7 @@ a {
 
 .whats-header:hover {
   background-color: #26231a;
+  color: white;
 }
 
 .menu a {
