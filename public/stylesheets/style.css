@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.whatsapp {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  box-shadow: 5px 5px 15px rgb(70, 69, 69);
+}
+
+.whatsapp img {
+
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container, .container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: 'Roboto', sans-serif !important;
+  justify-content: center !important;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
+  background-color: #e3c84c;
+  
+}
+
+.header p, header a{
+  font-size: .9rem;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-whats-header {
+  margin-left: 120px;
+}
+
+.btn-whats-header, .whats-header {
+  width: 220px;
+  height: 100%;
+  background-color: #221f16;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.whats-header:hover {
+  background-color: #26231a;
+}
+
+.menu a {
+  color: #221f16;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #e3c84c;
+}
+
+.shadow-menu {
+  -webkit-box-shadow: 0px 0px 10px #999 inset;
+	   -moz-box-shadow: 0px 0px 10px #999 inset; 
+  box-shadow: 30px 30px 30px #fff inset;
+}
+
+.i-encomenda {
+  color: #e3c84c;
+  font-size: 8rem;
+
+}
+
+.encomendas {
+  background-color: lightcoral;
+}
+
+.anim1, .anim2 {
+  max-width: 300px;
+}
+
+.encomendas-p {
+  font-size: 2rem;
+  color: #221f16;
+  font-weight: 700;
+}
+
+.whats-btn {
+  background-color: lightgreen;
+  color: rgb(1, 39, 14);
+  border: 1px solid rgb(75, 196, 117);
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.whats-btn:hover {
+  background-color: rgb(150, 230, 160);
+  color: rgb(1, 39, 14);
+}
+
+.whats-btn i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.papel-arroz {
+  background-color: #e3c84c;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #221f16;
+}
+
+.anim3 {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  5% {
+    transform: rotateZ(360deg);
+  }
+  10% {
+    transform: rotateZ(0deg);
+  }
+
+}
