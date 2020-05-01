@@ -14,7 +14,7 @@ body, html {
   bottom: 30px;
   right: 30px;
   z-index: 100;
-  box-shadow: 5px 5px 15px rgb(70, 69, 69);
+  box-shadow: 0px 0px 50px rgb(165, 163, 163);
 }
 
 a {
@@ -94,17 +94,17 @@ a {
 }
 
 .whats-btn {
-  background-color: lightgreen;
-  color: rgb(1, 39, 14);
-  border: 1px solid rgb(75, 196, 117);
+  background-color: #34af23 ;
+  color: #fff;
+  border: 1px solid #2fa020;
   padding: 10px 25px 10px 25px;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .whats-btn:hover {
-  background-color: rgb(150, 230, 160);
-  color: rgb(1, 39, 14);
+  background-color: #2fa020;
+  color: #fff;
 }
 
 .whats-btn i {
@@ -184,9 +184,9 @@ label {
   height: 100%;
   border: 5px solid #fff;
   border-radius: 2px;
-  -webkit-box-shadow: 2px 2px 5px rgb(190, 190, 190);
-  -moz-box-shadow: 2px 2px 50px rgb(190, 190, 190); 
-  box-shadow: 2px 2px 5px rgb(190, 190, 190);
+  -webkit-box-shadow: 0px 1px 5px rgb(190, 190, 190);
+  -moz-box-shadow: 0px 1px 5px rgb(190, 190, 190); 
+  box-shadow: 0px 1px 5px rgb(190, 190, 190);
 }
 
 .label-left {
@@ -195,6 +195,35 @@ label {
 
 .label-right {
   background: linear-gradient(270deg, rgba(0,0,0,0.73) 0%, rgba(255,255,255,0) 80%);
+}
+
+.contato {
+  width: 1000px;
+  margin: auto;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #e3c84c;
+}
+
+.contato h1 {
+  font-family: 'Pt sans', sans-serif;
+  font-size: 1rem;
+  color: #221f16;
+}
+
+.maps {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.rodape {
+  color:#c5bb90;
+  align-items: center;
+  font-size: 12px;
+  background-color: #221f16;
 }
 
 @media (max-width: 1000px) {
