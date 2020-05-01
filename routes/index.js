@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
 
   var teste = 1;
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Pandeca Panificadora' });
 });
 
 module.exports = router;
